@@ -1,0 +1,25 @@
+# Private tool state
+.serena/
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Local temporary/generated outputs
+/tmp/
+/temp/
+/output/
+/outputs/
+/cache/
+*.tmp
+*.log
+# Environment and credentials
+.env
+.env.*
+.venv/
+venv/
+credentials*.json
+secrets*.json
+*.pem
+*.key
